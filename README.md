@@ -20,15 +20,18 @@ Implement an application in java which provides a REST API with endpoints for se
 
 Be sure that you can show how your application responds to requests using postman, curl or any other HTTP client
 
+
 *************************************************************************************
 
+
 Frist of all we have to post the record in the server using POSTMAN which can be used to write functional tests, integration tests, regression tests, and more:
-Record of Emp_1.
+
+Record of Emp_1 in POSTMAN
 ![image](https://user-images.githubusercontent.com/63108640/228601888-15da322a-6657-45f9-acc7-93a1de437c47.png)
-Record of Emp_2.
+Record of Emp_2 in POSTMAN
 ![image](https://user-images.githubusercontent.com/63108640/228602089-1823e027-cfdc-4816-b515-849a55c4a223.png)
 
-Now we can view the records posted by POSTMAN in MONGODB:
+Now we can view the records in MONGODB:
 ![image](https://user-images.githubusercontent.com/63108640/228602784-7d1d3ce2-e96d-4e92-bdf8-6f239bd8bd2f.png)
 
 **********************************************
