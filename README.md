@@ -46,6 +46,7 @@ Now, employee ID is passed:
 Solution 2:
 
 Now, we have to use PUT methord in POSTMAN, and display the result in MONGODB:
+
 POSTMAN-
 ![image](https://user-images.githubusercontent.com/63108640/228604424-c0e948d4-14db-4464-a654-8cd5886f6188.png)
 MONGODB-
@@ -56,6 +57,7 @@ MONGODB-
 Solution 3:
 
 Now, we have to Delete the record:
+
 POSTMAN-
 ![image](https://user-images.githubusercontent.com/63108640/228605293-a4771b3e-90de-4763-8429-9ee2cad8e62f.png)
 MONGODB-
