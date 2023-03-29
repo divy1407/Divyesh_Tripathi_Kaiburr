@@ -1,6 +1,6 @@
 # Divyesh_Tripathi_Kaiburr
 
-#Task 1: Java REST API example.
+#TASK 1: Java REST API example.
 
 Implement an application in java which provides a REST API with endpoints for searching, creating and deleting “server” objects:
 
@@ -73,3 +73,31 @@ Solution 4:
 At last we have to GET the record by using name parameter:
 ![image](https://user-images.githubusercontent.com/63108640/228605706-5c0c62cd-88ff-42d2-8019-0a795653e61e.png)
 
+*******************************************
+
+#TASK 4. WEB UI Forms.
+
+Create a basic WEB UI frontend for an application that you created for #1 or #2 using any UI framework of your choice. You should be able to create, show and delete records from your UI.
+
+*********************************************
+
+First of all we have to create a HTML file using BOOTSTRAP. After running the code will get a LocalHost URL: https//:localhost/8020/.
+
+At 1st we'll ADD Employees Details:
+![image](https://user-images.githubusercontent.com/63108640/228610735-6ee404b2-f19e-451b-b156-eeaff49343e5.png)
+
+We can also view the same in the webpage as shown below:
+![image](https://user-images.githubusercontent.com/63108640/228610945-96cb319b-71f7-405d-b017-357635f69331.png)
+
+Now we can view same in MONGODB:
+![image](https://user-images.githubusercontent.com/63108640/228611076-be62c74b-2b5f-4368-9579-814dc391785c.png)
+
+Now, we'll be deleting the employee record, just by clicking the "Delete" button in the table itself:
+![image](https://user-images.githubusercontent.com/63108640/228611574-19a82e72-eb97-4f93-9bd6-9d3f5357220d.png)
+
+We can also view the same in MONGODB:
+![image](https://user-images.githubusercontent.com/63108640/228611675-84010b48-4b59-48ac-bcdc-990832be9de9.png)
+
+**************************************************************
+
+*THIS IS THE FINAL DOCUMENTATION OF THE KAIBURR ENGINEER PLACEMENT ASSESSMENT*
