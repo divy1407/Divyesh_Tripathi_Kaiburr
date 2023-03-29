@@ -1,0 +1,52 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://thymeleaf.org">
+
+<head>
+    <title>List Employees</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+          crossorigin="anonymous" />
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>List Employees</h3>
+
+    <hr/>
+    <a th:href="@{/employee/addEmployeeForm}" class="btn btn-primary">Add Employee</a>
+    <br/><br/>
+    <table class="table table-bordered table-striped">
+
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="employee: ${employees}">
+            <td th:text="${employee.id}" />
+            <td th:text="${employee.Name}" />
+            <td th:text="${employee.empDept}" />
+            <td th:text="${employee.empSalary}" />
+            <td>
+
+
+                <a th:href="@{/employee/deleteEmployee(employeeId=${employee.id})}" class="btn btn-danger ml-2">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+
+
+</body>
+
+</html>
